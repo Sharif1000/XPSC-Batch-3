@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    string s,t;
+    cin>>s>>t;
+    int cnt = 0;
+    for(int i = 0; i < s.length(); i++){
+      if(s[i] == t[i]) continue;
+      else cnt++;
+    }
+    cout<<cnt;
+    return 0;
+}
