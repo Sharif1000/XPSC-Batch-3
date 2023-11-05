@@ -1,1 +1,11 @@
-go
+AND   &
+OR    |
+XOR   ^
+NOT   !
+Left Shift <<
+Right Shift >>
+
+            XOR Operation
+a ^ 0 = a (XOR operation between 0 and a; return a)
+a ^ a = 0 (XOR operation between same number, return 0)
+
