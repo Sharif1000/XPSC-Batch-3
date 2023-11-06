@@ -13,6 +13,7 @@ a ^ a = 0 (XOR operation between same number, return 0)
             AND Operation
 a & 1 == 0 (If return 0, then a is EVEN Number)
 a & 1 == 1 (If return 1, then a is ODD Number)
-a & (a - 1) convert last set bit of a to 0 
+a & (a - 1) convert last set bit of a to 0
+a & (a - 1) == 0 [If return 0, then a is the power of two 2^x (a = 1, 2, 4, 8, 16, 32, .....)]
 
 
