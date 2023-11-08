@@ -1,1 +1,5 @@
-sharif
+Bit Extraction: AND operation between Masking and Number (Masking & n)
+
+Change Bit: XOR operation between Masking and Number (Masking ^ n)
+
+Clean Set Bit: XOR operation between Masking and Number; then AND operation
