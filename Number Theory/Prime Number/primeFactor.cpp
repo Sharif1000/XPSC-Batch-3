@@ -2,17 +2,17 @@
 using namespace std;
 
 void primeFact(int n) {
+    map<int,int>mp;
     for (int p = 2; p * p <= n; p++) {
-      if(n % p == 0){
-        int cnt = 0;
         while(n % p == 0){
-          cnt++;
+          mp[p]++;
           n /=p;
         }
-        cout<<p<<"^"<<cnt<<" ";
-      }
     }
-    if(n > 1) cout<<n<<"^"<<1;
+    if(n > 1) mp[n]++;
+    for(auto [x,y]:mp){
+        cout<<x<<"^"<<y<<" ";
+    }
 }
 
 int main() {
