@@ -8,7 +8,7 @@ Right Shift >>
             XOR Operation
 a ^ 0 = a (XOR operation between 0 and a; return a)
 a ^ a = 0 (XOR operation between same number, return 0)
-
+arr = [2, 3, 6, 8, 5, 6, 8, 3, 2], --Find the element that occurs an odd number of times from array arr? Solution: XOR operation between all elements of array arr will return 5.
 
             AND Operation
 a & 1 == 0 (If return 0, then a is EVEN Number)
