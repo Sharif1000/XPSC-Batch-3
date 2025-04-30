@@ -2,8 +2,8 @@
 using namespace std;
 const int mod = 1e9+7;
 
-int factorial (int N){
-  int ans = 1;
+long long factorial (int N){
+  long long ans = 1;
   for(int i = 1; i <=N; i++){
     ans = (ans * i) % mod;
   }
@@ -12,6 +12,6 @@ int factorial (int N){
 
 int main() 
 {
-    cout<<factorial(3);
+    cout<<factorial(25);
     return 0;
 }
