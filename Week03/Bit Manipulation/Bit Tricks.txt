@@ -12,6 +12,7 @@ Right Shift >> [N will be N/2 for Right Shift]
 04. If A ^ B = C 
     then A ^ C = B 
     and B ^ C = A
+05. A ^ B <= A + B [XOR of A and B is less than or equal to (A+B)]
 
 
             AND Operation
@@ -20,4 +21,5 @@ a & 1 == 1 (If return 1, then a is ODD Number)
 a & (a - 1) convert last set bit of a to 0
 a & (a - 1) == 0 [If return 0, then a is the power of two 2^x (a = 1, 2, 4, 8, 16, 32, .....)]
 
-
+           Set Bit
+int x = __builtin_popcountll(10); [builtin function for counting set bits]
