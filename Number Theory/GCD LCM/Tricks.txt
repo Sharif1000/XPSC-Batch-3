@@ -1,3 +1,17 @@
 01. LCM = (a * b ) / GCD
 02. int GCD = __gcd(a,b);
 03. ax + by = c if gcd(a,b) is equal to c, solution is possible for x and y. -- Euclidean Algorithm
+
+04. Primitive Pythagorean triples are sets of three positive integers (a,b,c) that 
+        i. satisfy the Pythagorean theorem: a² + b² = c²
+        ii. are coprime (the greatest common divisor of a, b, c is 1)
+                
+                How to Generate Primitive Pythagorean Triples
+        Generate all primitive Pythagorean triples using two positive integers m and n where:
+        i. m > n
+        ii. m and n are coprime [GCD(m,n) = 1]
+        iii. m − n is odd (one is even and one is odd).
+        iv. Then the triple is given by:
+                                        a = m² - n²
+                                        b = 2mn
+                                        c = m² + n²
